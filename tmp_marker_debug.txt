@@ -1,0 +1,4 @@
+idx=6970
+"createdAt']),\n    );\n  }\n  // __wishlist_parse__\n\n}\n"
+has_LF=True
+has_CRLF=False

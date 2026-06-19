@@ -1,0 +1,869 @@
+{
+	"common": {
+		"cancel": "रद्द करें",
+		"from": "से",
+		"to": "तक",
+		"save": "सहेजें",
+		"retry": "पुनः प्रयास करें",
+		"login": "लॉगिन",
+		"sign_up": "साइन अप",
+		"continue": "जारी रखें",
+		"submit": "जमा करें",
+		"next": "आगे बढ़ें",
+		"ok": "ठीक है",
+		"got_it": "समझ गया",
+		"view_all": "सभी देखें",
+		"not_available": "उपलब्ध नहीं",
+		"click_to_continue": "जारी रखने के लिए क्लिक करें",
+		"unable_to_continue": "आगे नहीं बढ़ पाए",
+		"otp_sent": "ओटीपी भेज दिया गया",
+		"send_otp": "ओटीपी भेजें",
+		"request_otp": "ओटीपी माँगें",
+		"verify_otp": "ओटीपी सत्यापित करें",
+		"verify": "सत्यापित करें",
+		"resend_otp": "ओटीपी फिर से भेजें",
+		"please_enter_otp": "कृपया ओटीपी दर्ज करें",
+		"invalid_otp_title": "अमान्य ओटीपी",
+		"invalid_otp_message": "कृपया 4 अंकों का ओटीपी दर्ज करें",
+		"failed_to_request_otp": "ओटीपी माँगने में विफल",
+		"failed_to_verify_otp": "ओटीपी सत्यापन विफल",
+		"failed_to_load": "लोड नहीं हो सका",
+		"maybe_later": "बाद में",
+		"link_unavailable": "{} लिंक अभी उपलब्ध नहीं है।",
+		"could_not_open_link": "{} लिंक नहीं खुल सका।",
+		"change_language": "भाषा बदलें",
+		"buy_subscription": "सब्सक्रिप्शन खरीदें",
+		"view_history": "इतिहास देखें",
+		"change": "बदलें",
+		"logout": "लॉगआउट",
+		"update": "अपडेट करें",
+		"edit": "संपादित करें",
+		"delete": "हटाएँ",
+		"post": "पोस्ट करें",
+		"optional": "वैकल्पिक",
+		"updating": "अपडेट हो रहा है...",
+		"posting": "पोस्ट हो रहा है...",
+		"loading": "लोड हो रहा है",
+		"copy": "कॉपी करें",
+		"skip": "छोड़ें",
+		"finish": "समाप्त करें",
+		"upload": "अपलोड करें",
+		"applied_on": "{} को आवेदन किया",
+		"hired_on": "{} को नियुक्त किया",
+		"rejected_on": "{} को अस्वीकार किया",
+		"vacancy": "{} रिक्ति",
+		"vacancies": "{} रिक्तियाँ",
+		"hired_count": "{} नियुक्त",
+		"salary_not_specified": "वेतन निर्दिष्ट नहीं है",
+		"up_to": "{} तक",
+		"of": "{} में से {}",
+		"press_back_again_to_exit": "बाहर निकलने के लिए फिर से बैक दबाएँ"
+	},
+	"errors": {
+		"unable_to_load_user_id": "यूज़र आईडी लोड नहीं हो सका",
+		"no_employee_id": "कर्मचारी आईडी नहीं मिली",
+		"no_employer_id": "नियोक्ता आईडी नहीं मिली"
+	},
+	"applicants": {
+		"title": "आवेदक",
+		"details_title": "आवेदक विवरण",
+		"empty": "कोई आवेदक नहीं मिला",
+		"hire": {
+			"title": "आवेदक नियुक्त करें",
+			"subtitle": "नियुक्त करने के लिए ओटीपी सत्यापित करें।",
+			"points": {
+				"1": "ओटीपी आवेदक के मोबाइल पर भेजा जाएगा।",
+				"2": "ओटीपी दर्ज करके नियुक्ति की पुष्टि करें।"
+			}
+		}
+	},
+	"subscriptions": {
+		"active_plan": "सक्रिय प्लान",
+		"buy_plan": "प्लान खरीदें",
+		"valid_for_days": "{} दिनों के लिए",
+		"screen": {
+			"title": "सब्सक्रिप्शन"
+		},
+		"no_active_plan": "कोई सक्रिय प्लान नहीं",
+		"plans": {
+			"empty": "कोई प्लान नहीं मिला"
+		},
+		"valid_till": "मान्य तिथि {} तक",
+		"credits": {
+			"contact": "संपर्क क्रेडिट",
+			"interest": "रुचि क्रेडिट",
+			"ads": "विज्ञापन क्रेडिट"
+		},
+		"payment": {
+			"unable_to_start": "भुगतान शुरू नहीं हो सका",
+			"success": "भुगतान सफल",
+			"failed": "भुगतान असफल",
+			"pending": "भुगतान लंबित"
+		},
+		"payment_history": {
+			"title": "भुगतान इतिहास",
+			"empty": "कोई भुगतान नहीं मिला",
+			"paid_at": "भुगतान समय {}",
+			"order_id": "ऑर्डर आईडी : {}",
+			"order_id_copied": "ऑर्डर आईडी कॉपी हो गई"
+		},
+		"dialog": {
+			"no_subscription": "कोई सब्सक्रिप्शन नहीं",
+			"no_job_post_credits": "जॉब पोस्ट क्रेडिट नहीं मिले"
+		},
+		"free_credits": "मुफ्त क्रेडिट"
+	},
+	"applications": {
+		"tabs": {
+			"sent": "भेजे गए",
+			"received": "प्राप्त"
+		},
+		"empty": {
+			"sent": "कोई भेजा गया आवेदन नहीं है।",
+			"received": "कोई प्राप्त आवेदन नहीं है।"
+		},
+		"vacancy_left": "{} रिक्ति शेष",
+		"vacancies_left": "{} रिक्तियाँ शेष"
+	},
+	"wishlist": {
+		"empty": "विशलिस्ट में कोई नौकरी नहीं है।",
+		"failed_to_load": "विशलिस्ट लोड नहीं हो सकी।"
+	},
+	"job_details": {
+		"failed_send_interest": "रुचि भेजने में विफल।",
+		"posted_not_available": "पोस्ट की तारीख उपलब्ध नहीं है",
+		"posted_on": "{} को पोस्ट किया गया",
+		"link_unavailable": "लिंक उपलब्ध नहीं है।",
+		"share": {
+			"default_name": "किसी ने",
+			"message": "{} ने आपके लिए Roti Jugaad App पर एक job share की है।",
+			"cta": "नए users को free credits मिल रहे हैं — अभी apply करें:"
+		},
+		"already_reported_on": "आपने इस नौकरी को पहले ही {} को रिपोर्ट किया है",
+		"not_available": "नौकरी विवरण उपलब्ध नहीं है।",
+		"about_org": "{} के बारे में",
+		"about_job": "नौकरी के बारे में",
+		"sent_interest": "रुचि भेजी गई",
+		"received_interest": "रुचि प्राप्त हुई",
+		"hire": "नियुक्त करें",
+		"free_gifts_after_hiring": "नियुक्ति के बाद मुफ्त उपहार पाएं",
+		"sent_on": "{} को भेजा गया",
+		"received_on": "{} को प्राप्त हुआ",
+		"hiring_otp": "हायरिंग ओटीपी",
+		"matching_otp": "मैचिंग ओटीपी",
+		"description_not_available": "नौकरी विवरण उपलब्ध नहीं है।",
+		"shift": "कार्य समय ({})",
+		"work_time_job_type": "कार्य समय",
+		"who_can_apply": "कौन आवेदन कर सकता है",
+		"skills": "कौशल",
+		"incentives": "प्रोत्साहन",
+		"calling_hours": "कॉल करने का समय सुबह 10 बजे से शाम 7 बजे तक",
+		"address_details": "पता विवरण",
+		"work_days_single": "सप्ताह में {} {} ({})",
+		"work_days_range": "सप्ताह में {} {} ({})"
+	},
+	"history": {
+		"screen": {
+			"title": "इतिहास"
+		},
+		"tabs": {
+			"contacts": "संपर्क",
+			"interests": "रुचियाँ",
+			"ads": "विज्ञापन"
+		},
+		"empty": "कोई इतिहास नहीं मिला",
+		"contact_details": "संपर्क विवरण",
+		"interest_details": "रुचि विवरण",
+		"unlocked_on": "{} को अनलॉक किया गया",
+		"sent_on": "{} को भेजा गया",
+		"view_profile": "प्रोफ़ाइल देखें",
+		"repost_ad": "विज्ञापन दोबारा पोस्ट करें"
+	},
+	"support": {
+		"screen": {
+			"title": "सहायता"
+		},
+		"call_us": "कॉल करें",
+		"write_to_us": "हमें लिखें",
+		"phone_unavailable": "फोन नंबर उपलब्ध नहीं है",
+		"email_unavailable": "ईमेल उपलब्ध नहीं है",
+		"could_not_open_dialer": "डायलर नहीं खुल सका",
+		"could_not_open_email": "ईमेल नहीं खुल सका"
+	},
+	"verify": {
+		"identity": {
+			"title": "पहचान सत्यापित करें",
+			"verify_aadhaar_title": "आधार सत्यापित करें",
+			"verify_aadhaar_desc": "अपनी आधार पहचान सत्यापित करें",
+			"selfie_title": "सेल्फी फोटो",
+			"selfie_desc": "पहचान सत्यापित करने के लिए स्पष्ट सेल्फी लें",
+			"unable_find_profile": "प्रोफ़ाइल नहीं मिल पाई",
+			"verified_success": "पहचान सफलतापूर्वक सत्यापित हुई",
+			"kyc_verified_success": "KYC सफलतापूर्वक सत्यापित हुआ",
+			"employer_note": "नोट: कृपया अपना आधार सत्यापित करें या दस्तावेज़ अपलोड करें ताकि आपके विज्ञापन पर सत्यापित टैग दिखे और अधिक आवेदक नौकरी के लिए आवेदन करें।",
+			"upload_documents": "दस्तावेज़ अपलोड करें",
+			"upload_documents_desc": "MSME सर्टिफिकेट, FSSAI लाइसेंस, पैन कार्ड...",
+			"complete_profile_first": "कृपया पहले अपना प्रोफ़ाइल पूरा करें",
+			"failed_document_upload": "दस्तावेज़ अपलोड नहीं हो सका",
+			"document_uploaded_success": "दस्तावेज़ सफलतापूर्वक अपलोड हुआ",
+			"profile_completed_success": "प्रोफ़ाइल सफलतापूर्वक पूर्ण हुई",
+			"verify_aadhaar_first": "कृपया पहले आधार सत्यापित करें।",
+			"capture_selfie_first": "कृपया पहले अपनी सेल्फी फोटो कैप्चर करें।",
+			"verify_aadhaar_and_selfie_first": "कृपया पहले आधार सत्यापित करें और अपनी सेल्फी फोटो कैप्चर करें।",
+			"verify_aadhaar_or_document_first": "कृपया पहले आधार सत्यापित करें या कोई दस्तावेज़ अपलोड करें।",
+			"capture_selfie_title": "सत्यापन के लिए सेल्फी लें",
+			"capture_selfie_desc": "सुनिश्चित करें कि आपका चेहरा अच्छी रोशनी में स्पष्ट दिखे।",
+			"unable_access_camera": "कैमरा एक्सेस नहीं हो सका",
+			"unable_capture_selfie": "सेल्फी कैप्चर नहीं हो सकी"
+		},
+		"aadhaar": {
+			"title": "आधार नंबर",
+			"hint": "आधार नंबर दर्ज करें",
+			"invalid": "अमान्य आधार नंबर"
+		},
+		"otp": {
+			"sent_to_registered": "ओटीपी आपके पंजीकृत मोबाइल नंबर पर भेजा गया"
+		}
+	},
+	"job": {
+		"form": {
+			"screen_title": {
+				"add": "नई नौकरी जोड़ें",
+				"edit": "नौकरी संपादित करें"
+			},
+			"job_title": {
+				"label": "नौकरी शीर्षक",
+				"hint": "कृपया नौकरी शीर्षक चुनें"
+			},
+			"job_designation": {
+				"label": "पदनाम",
+				"hint": "पदनाम दर्ज करें"
+			},
+			"job_designation_hindi": {
+				"label": "पदनाम (हिंदी)",
+				"hint": "पदनाम हिंदी में दर्ज करें"
+			},
+			"household_help_job": "घरेलू सहायता नौकरी",
+			"org_name": {
+				"label": "संगठन का नाम",
+				"hint": "संगठन / फर्म का नाम दर्ज करें"
+			},
+			"business_category": {
+				"label": "व्यवसाय श्रेणी",
+				"hint": "व्यवसाय श्रेणी चुनें"
+			},
+			"job_description": {
+				"label": "नौकरी विवरण",
+				"hint": "नौकरी का विवरण लिखें"
+			},
+			"vacancies": {
+				"label": "रिक्तियों की संख्या",
+				"hint": "कृपया रिक्ति चुनें"
+			},
+			"skills": "कौशल",
+			"experience": "अनुभव",
+			"gender": "लिंग",
+			"qualifications": "योग्यता",
+			"interviewer_contact": {
+				"label": "साक्षात्कारकर्ता संपर्क नंबर",
+				"hint": "संपर्क नंबर दर्ज करें",
+				"verified_success": "साक्षात्कारकर्ता मोबाइल सफलतापूर्वक सत्यापित हो गया"
+			},
+			"same_as_current_number": "वर्तमान नंबर जैसा",
+			"job_address": {
+				"label": "नौकरी का पता",
+				"hint": "पूरा नौकरी का पता दर्ज करें"
+			},
+			"same_as_current_address": "वर्तमान पते जैसा",
+			"same_as_firm_address": "फर्म के पते जैसा",
+			"same_as_household_address": "घरेलू पते जैसा",
+			"job_state": {
+				"label": "नौकरी राज्य",
+				"hint": "कृपया राज्य चुनें"
+			},
+			"same_as_current_state": "वर्तमान राज्य जैसा",
+			"job_city": {
+				"label": "नौकरी शहर",
+				"hint": "कृपया शहर चुनें",
+				"loading": "शहर लोड हो रहे हैं...",
+				"select_state_first": "पहले राज्य चुनें"
+			},
+			"same_as_current_city": "वर्तमान शहर जैसा",
+			"job_benefits": "नौकरी लाभ",
+			"other_benefits": {
+				"label": "अन्य लाभ",
+				"hint": "अन्य लाभ"
+			},
+			"salary_range": {
+				"label": "वेतन सीमा"
+			},
+			"shift_type": "शिफ्ट प्रकार",
+			"working_hours": {
+				"label": "काम के घंटे"
+			},
+			"working_days": {
+				"label": "कार्य दिवस"
+			},
+			"validation": {
+				"complete_profile_first": "कृपया पहले अपना प्रोफ़ाइल पूरा करें",
+				"select_job_title": "कृपया नौकरी शीर्षक चुनें",
+				"enter_contact_number": "कृपया संपर्क नंबर दर्ज करें",
+				"verify_interviewer_contact_number": "कृपया साक्षात्कारकर्ता संपर्क नंबर सत्यापित करें",
+				"enter_job_address": "कृपया नौकरी का पता दर्ज करें",
+				"select_job_state": "कृपया नौकरी राज्य चुनें",
+				"select_job_city": "कृपया नौकरी शहर चुनें",
+				"select_salary_type": "कृपया वेतन प्रकार चुनें",
+				"enter_valid_salary_range": "कृपया मान्य वेतन सीमा दर्ज करें",
+				"select_working_hours": "कृपया काम के घंटे चुनें",
+				"invalid_working_hours": "अमान्य काम के घंटे",
+				"select_working_days": "कृपया कार्य दिवस चुनें",
+				"select_experience": "कृपया कम से कम एक अनुभव चुनें",
+				"select_gender": "कृपया कम से कम एक लिंग चुनें",
+				"select_qualification": "कृपया कम से कम एक योग्यता चुनें",
+				"select_shift_type": "कृपया कम से कम एक शिफ्ट प्रकार चुनें",
+				"enter_job_location": "कृपया नौकरी का स्थान दर्ज करें",
+				"enter_org_name": "कृपया संगठन का नाम दर्ज करें",
+				"select_business_category": "कृपया व्यवसाय श्रेणी चुनें",
+				"select_vacancies": "कृपया रिक्तियों की संख्या चुनें"
+			},
+			"success": {
+				"updated": "नौकरी सफलतापूर्वक अपडेट हुई",
+				"added": "नौकरी सफलतापूर्वक जोड़ी गई"
+			},
+			"errors": {
+				"unable_to_load_employer_mobile": "नियोक्ता मोबाइल नंबर लोड नहीं हो सका",
+				"unable_to_load_employer_address": "नियोक्ता पता लोड नहीं हो सका",
+				"unable_to_load_employer_state": "नियोक्ता राज्य लोड नहीं हो सका",
+				"unable_to_load_employer_city": "नियोक्ता शहर लोड नहीं हो सका"
+			},
+			"job_location": {
+				"label": "नौकरी का स्थान",
+				"hint": "नौकरी का स्थान खोजें"
+			}
+		},
+		"report": {
+			"title": "नौकरी रिपोर्ट करें",
+			"reason": {
+				"title": "कारण",
+				"hint": "कारण चुनें",
+				"required": "कृपया कारण चुनें"
+			},
+			"description": {
+				"title": "विवरण",
+				"hint": "विवरण लिखें"
+			},
+			"success": "रिपोर्ट सफलतापूर्वक भेजी गई",
+			"failed": "रिपोर्ट भेजी नहीं जा सकी"
+		}
+	},
+	"profile": {
+		"credits_valid_till_empty": "क्रेडिट मान्य —",
+		"credits_expired_on_prefix": "क्रेडिट समाप्त: ",
+		"credits_valid_till_prefix": "क्रेडिट मान्य: ",
+		"hired_jobs": "नियुक्त नौकरियाँ",
+		"update": {
+			"email_required": "ईमेल आवश्यक है",
+			"address_required": "पता आवश्यक है",
+			"org_required": "संस्था का नाम आवश्यक है",
+			"success": "प्रोफ़ाइल सफलतापूर्वक अपडेट हो गई",
+			"unable": "प्रोफ़ाइल अपडेट नहीं हो सकी"
+		},
+		"refer_sheet": {
+			"title": "रेफर करें और कमाएँ",
+			"tagline": "दोस्तों को आमंत्रित करें और इनाम पाएं",
+			"how_it_works": "यह कैसे काम करता है",
+			"share_message": {
+				"default_name": "किसी ने",
+				"invite": "{} ने आपको Roti Jugaad App join करने के लिए invite किया है।",
+				"cta": "Referral code use करें और free credits पाएं: {} |"
+			},
+			"points": {
+				"1": "अपना रेफरल कोड दोस्तों के साथ साझा करें।",
+				"2": "वे आपके कोड से साइन अप करें।",
+				"3": "आप दोनों को इनाम मिलेगा।"
+			},
+			"copy": "कॉपी करें",
+			"share": "शेयर करें",
+			"share_your_code": "अपना कोड शेयर करें"
+		},
+		"change_mobile": {
+			"resend_in": "{} में ओटीपी फिर से भेजें",
+			"otp_sent_to": "+91 {} पर ओटीपी भेजा गया",
+			"success": "मोबाइल नंबर सफलतापूर्वक अपडेट हो गया"
+		},
+		"rate_review": {
+			"title": "रेट और रिव्यू",
+			"subtitle": "आपकी प्रतिक्रिया हमें बेहतर बनाती है",
+			"review_label": "रिव्यू",
+			"comment_hint": "अपनी टिप्पणी लिखें",
+			"submitted": "आपकी समीक्षा सबमिट हो गई है।"
+		},
+		"photo": {
+			"title": "प्रोफ़ाइल फोटो",
+			"change": "फोटो बदलें",
+			"locked_after_verification": "सत्यापन के बाद प्रोफ़ाइल चित्र नहीं बदला जा सकता"
+		},
+		"verified": {
+			"title": "सत्यापित प्रोफ़ाइल",
+			"subtitle": "आपकी प्रोफ़ाइल सत्यापित है",
+			"selfie_title": "सेल्फी सत्यापित",
+			"selfie_desc": "आपकी सेल्फी सत्यापित हो गई है।",
+			"aadhaar_title": "आधार सत्यापित",
+			"aadhaar_desc": "आपका आधार सत्यापित हो गया है।"
+		},
+		"kyc_verified": {
+			"title": "KYC सत्यापित",
+			"subtitle": "आपकी पहचान KYC के माध्यम से सत्यापित हो गई है",
+			"viewed_subtitle": "इस उपयोगकर्ता की पहचान KYC के माध्यम से सत्यापित हो गई है",
+			"selfie_title": "सेल्फी सत्यापित",
+			"selfie_desc": "आपकी सेल्फी सत्यापित हो गई है।",
+			"viewed_selfie_desc": "इस उपयोगकर्ता की सेल्फी सत्यापित हो गई है।",
+			"aadhaar_title": "आधार सत्यापित",
+			"aadhaar_desc": "आपका आधार सत्यापित हो गया है।",
+			"viewed_aadhaar_desc": "इस उपयोगकर्ता का आधार सत्यापित हो गया है।"
+		},
+		"employer": {
+			"name": "नाम",
+			"organization_type": "किसके लिए भर्ती कर रहे हैं",
+			"organization_type_domestic": "हाउसहोल्ड",
+			"organization_type_firm": "फर्म",
+			"organization_name": "संस्था का नाम",
+			"business_category": "व्यवसाय श्रेणी",
+			"select_business_category": "व्यवसाय श्रेणी चुनें",
+			"state": "राज्य",
+			"select_state": "राज्य चुनें",
+			"loading_cities": "शहर लोड हो रहे हैं...",
+			"city": "शहर",
+			"select_state_first": "पहले राज्य चुनें",
+			"select_city": "शहर चुनें",
+			"address": "पता",
+			"email": "ईमेल",
+			"assisted_by": "सहायता करने वाला"
+		},
+		"employee": {
+			"continue_to_job_profile": "नौकरी प्रोफ़ाइल पर जारी रखें",
+			"name_required": "नाम आवश्यक है",
+			"dob_required": "कृपया जन्म तिथि चुनें",
+			"dob_minimum_age": "आपकी आयु कम से कम 18 वर्ष होनी चाहिए",
+			"gender_required": "कृपया लिंग चुनें",
+			"failed_to_save": "व्यक्तिगत जानकारी सहेजने में विफल",
+			"name": "नाम",
+			"enter_name": "अपना नाम दर्ज करें",
+			"date_of_birth": "जन्म तिथि",
+			"select_date_of_birth": "अपनी जन्म तिथि चुनें",
+			"gender": "लिंग",
+			"state": "राज्य",
+			"select_state": "कृपया अपना राज्य चुनें",
+			"city": "शहर",
+			"select_city": "कृपया अपना शहर चुनें",
+			"select_state_first": "पहले राज्य चुनें",
+			"preferred_state": "पसंदीदा नौकरी राज्य",
+			"select_preferred_state": "अपना पसंदीदा नौकरी राज्य चुनें",
+			"same_as_current_state": "वर्तमान राज्य जैसा",
+			"preferred_city": "पसंदीदा नौकरी शहर",
+			"select_preferred_city": "अपना पसंदीदा नौकरी शहर चुनें",
+			"select_preferred_state_first": "पहले पसंदीदा राज्य चुनें",
+			"same_as_current_city": "वर्तमान शहर जैसा",
+			"preferred_location": "पसंदीदा जॉब स्थान",
+			"preferred_location_hint": "अपना पसंदीदा जॉब स्थान खोजें",
+			"skills": "कौशल",
+			"qualification": "योग्यता",
+			"select_qualification": "कृपया अपनी योग्यता चुनें",
+			"expected_salary": "अपेक्षित वेतन",
+			"expected_salary_hint": "अपनी अपेक्षित वेतन दर्ज करें",
+			"preferred_shift": "पसंदीदा शिफ्ट",
+			"select_shift": "कृपया शिफ्ट चुनें",
+			"assistant_code": "सहायक कोड",
+			"enter_assistant_code": "सहायक कोड दर्ज करें",
+			"email": "ईमेल आईडी",
+			"enter_email": "अपना ईमेल दर्ज करें",
+			"about_me": "मेरे बारे में",
+			"about_hint": "अपने बारे में कुछ विवरण लिखें",
+			"state_required": "कृपया राज्य चुनें",
+			"city_required": "कृपया शहर चुनें",
+			"preferred_state_required": "कृपया पसंदीदा नौकरी राज्य चुनें",
+			"preferred_city_required": "कृपया पसंदीदा नौकरी शहर चुनें",
+			"qualification_required": "कृपया योग्यता चुनें",
+			"expected_salary_required": "कृपया अपनी अपेक्षित वेतन दर्ज करें",
+			"shift_required": "कृपया शिफ्ट चुनें",
+			"preferred_location_required": "कृपया पसंदीदा नौकरी स्थान दर्ज करें"
+		},
+		"flow": {
+			"job_profiles": "जॉब प्रोफ़ाइल",
+			"experiences": "अनुभव",
+			"experience": "अनुभव",
+			"add_experience": "अनुभव जोड़ें",
+			"edit_experience": "अनुभव संपादित करें",
+			"documents": "दस्तावेज़",
+			"select_upto_three_job_profiles": "अधिकतम 3 जॉब प्रोफ़ाइल चुनें",
+			"select_at_least_one_job_profile": "कृपया कम से कम 1 जॉब प्रोफ़ाइल चुनें",
+			"unable_to_load_user_details": "उपयोगकर्ता विवरण लोड नहीं हो सके",
+			"unable_to_load_employee_details": "कर्मचारी विवरण लोड नहीं हो सके",
+			"no_experiences_added_yet": "अभी तक कोई अनुभव नहीं जोड़ा गया",
+			"add_new_experience": "नया अनुभव जोड़ें",
+			"add_more_experience": "और अनुभव जोड़ें",
+			"delete_experience_title": "अनुभव हटाएँ?",
+			"delete_experience_message": "यह अनुभव को स्थायी रूप से हटा देगा।",
+			"select_document_type": "अनुभव दस्तावेज़ चुनें",
+			"select_document_type_hint": "कृपया अनुभव दस्तावेज़ चुनें",
+			"please_select_document_type": "कृपया अनुभव दस्तावेज़ चुनें",
+			"nature_of_work": "पिछली नौकरी की भूमिका",
+			"nature_of_work_hint": "कृपया पिछली नौकरी की भूमिका चुनें",
+			"please_select_nature_of_work": "कृपया पिछली नौकरी की भूमिका चुनें",
+			"previous_firm": "पिछली फर्म का नाम",
+			"previous_firm_hint": "पिछली फर्म का नाम दर्ज करें",
+			"previous_firm_required": "कृपया पिछली फर्म का नाम दर्ज करें",
+			"duration_of_work": "कार्य अवधि",
+			"duration_of_work_hint": "कार्य अवधि दर्ज करें",
+			"duration_of_work_required": "कृपया कार्य अवधि दर्ज करें",
+			"upload_document": "अनुभव दस्तावेज़ अपलोड करें",
+			"choose_file_upload": "अपलोड करने के लिए फ़ाइल चुनें",
+			"view_document": "अपलोड किया दस्तावेज़ देखें",
+			"document": "दस्तावेज़",
+			"hired_on": "नियुक्ति की तारीख",
+			"no_hired_jobs": "कोई नियुक्त नौकरी नहीं"
+		},
+		"additional_documents": {
+			"title": "अतिरिक्त दस्तावेज़",
+			"select_document_type": "दस्तावेज़ प्रकार चुनें",
+			"select_document_type_hint": "कृपया दस्तावेज़ प्रकार चुनें",
+			"please_select_document_type": "कृपया दस्तावेज़ प्रकार चुनें",
+			"upload_document": "अतिरिक्त दस्तावेज़ अपलोड करें",
+			"note": "नोट: किसी भी अपलोड किए गए दस्तावेज़ में संपर्क जानकारी शामिल नहीं होनी चाहिए।",
+			"upload_new_document": "नया दस्तावेज़ अपलोड करें",
+			"uploaded_documents": "अपलोड किए गए दस्तावेज़",
+			"no_file_selected": "कोई फ़ाइल नहीं चुनी गई",
+			"upload_document_btn": "दस्तावेज़ अपलोड करें",
+			"document_uploaded_success": "दस्तावेज़ सफलतापूर्वक अपलोड हुआ"
+		},
+		"screen": {
+			"title": "मेरी प्रोफ़ाइल"
+		},
+		"resubmit": {
+			"title": "प्रोफ़ाइल पुनः भेजें"
+		},
+		"plan": {
+			"basic": "बेसिक प्लान"
+		},
+		"credits": {
+			"contact": "संपर्क क्रेडिट",
+			"interest": "रुचि क्रेडिट",
+			"ads": "विज्ञापन क्रेडिट"
+		},
+		"upgrade": {
+			"title": "अपना प्लान अपग्रेड करें",
+			"subtitle": "हमारे प्लान्स के साथ प्रीमियम फीचर्स का एक्सेस पाएं।"
+		},
+		"refer": {
+			"title": "रेफर करें और कमाएँ",
+			"subtitle": "अपने दोस्तों को आमंत्रित करें और उनके जुड़ने पर क्रेडिट कमाएँ!"
+		},
+		"sections": {
+			"account_settings": "खाता सेटिंग्स",
+			"work_job_history": "काम और नौकरी इतिहास",
+			"app_privacy": "App & Privacy Settings",
+			"general_support": "General & Support"
+		},
+		"actions": {
+			"edit_profile": "प्रोफ़ाइल संपादित करें",
+			"update_profile": "प्रोफ़ाइल अपडेट करें",
+			"change_mobile": "मोबाइल नंबर बदलें",
+			"update_experiences": "अनुभव अपडेट करें",
+			"update_preferences": "प्राथमिकताएँ अपडेट करें",
+			"additional_documents": "अतिरिक्त दस्तावेज़",
+			"shortlisted_candidates": "शॉर्टलिस्ट किए गए उम्मीदवार",
+			"payment_history": "भुगतान इतिहास",
+			"privacy_policy": "गोपनीयता नीति",
+			"terms_conditions": "नियम और शर्तें",
+			"refund_policy": "रिफंड नीति",
+			"help_support": "सहायता और समर्थन",
+			"rate_review": "रेट और रिव्यू",
+			"share_app": "ऐप साझा करें"
+		},
+		"complete": {
+			"title": "प्रोफ़ाइल पूर्ण करें"
+		},
+		"verification": {
+			"aadhaar_pending": "आधार सत्यापन लंबित",
+			"kyc_in_review": "KYC समीक्षा में",
+			"aadhaar_rejected": "आधार सत्यापन अस्वीकृत",
+			"pending_approval": "अनुमोदन लंबित",
+			"verify_now": "अभी सत्यापित करें",
+			"verify_again": "फिर से सत्यापित करें",
+			"profile_rejected": "प्रोफ़ाइल अस्वीकृत"
+		},
+		"incomplete": {
+			"title": "प्रोफ़ाइल अधूरी है",
+			"message": "कृपया अपनी प्रोफ़ाइल पूरी करें। आप इसे बाद में भी कर सकते हैं।",
+			"later": "बाद में करें"
+		},
+		"logout": {
+			"title": "क्या आप वाकई लॉगआउट करना चाहते हैं?",
+			"confirm": "हाँ, लॉगआउट"
+		},
+		"delete_account": {
+			"title": "खाता हटाने का अनुरोध भेजें?",
+			"message": "आपका खाता हटाने का अनुरोध समीक्षा के लिए एडमिन टीम को भेज दिया जाएगा।",
+			"button": "खाता हटाएँ",
+			"submitted": "खाता हटाने का अनुरोध भेज दिया गया है।",
+			"failed": "खाता हटाने का अनुरोध भेजा नहीं जा सका।"
+		}
+	},
+	"language": {
+		"choose_language": "अपना अनुभव बेहतर करने के लिए भाषा चुनें"
+	},
+	"nav": {
+		"jobs": "नौकरियाँ",
+		"applications": "आवेदन",
+		"wishlist": "इच्छा-सूची",
+		"profile": "प्रोफ़ाइल",
+		"candidates": "उम्मीदवार",
+		"applicants": "आवेदक"
+	},
+	"jobs": {
+		"stories": {
+			"title": "रोटी जुगाड़ स्टोरीज़"
+		},
+		"search": {
+			"hint": "नौकरी खोजें"
+		},
+		"filters": "फ़िल्टर",
+		"tabs": {
+			"all": "सभी नौकरियाँ",
+			"recommended": "AI सुझाई गई"
+		},
+		"count": "{} नौकरियाँ",
+		"near_you": "आपकी प्रोफ़ाइल के आधार पर {} आपके पास हैं।",
+		"recommended": {
+			"title": "AI सुझाई गई",
+			"count": "{} सुझाई गई नौकरियाँ"
+		},
+		"empty": {
+			"all": "कोई नौकरी नहीं मिली।",
+			"recommended": "कोई सुझाई गई नौकरी नहीं मिली।",
+			"complete_profile": "सुझाई गई नौकरियाँ देखने के लिए अपना प्रोफ़ाइल पूरा करें।"
+		},
+		"card": {
+			"job_fallback": "नौकरी"
+		}
+	},
+	"employer_jobs": {
+		"title": "नौकरियाँ",
+		"add_new_job": "नई नौकरी जोड़ें",
+		"no_jobs_found": "कोई नौकरी नहीं मिली",
+		"job_fallback": "नौकरी #{}",
+		"job_details": "नौकरी विवरण"
+	},
+	"candidates": {
+		"welcome": "स्वागत है,",
+		"welcome_back": "वापसी पर स्वागत है,",
+		"post_ad": "विज्ञापन पोस्ट करें",
+		"search_job_profile": "जॉब प्रोफ़ाइल खोजें",
+		"empty": "कोई उम्मीदवार नहीं मिला",
+		"complete_profile": "सुझाए गए उम्मीदवार देखने के लिए अपना प्रोफ़ाइल पूरा करें।",
+		"tabs": {
+			"all": "सभी",
+			"recommended": "AI सुझाए गए"
+		},
+		"detail": {
+			"title": "उम्मीदवार विवरण",
+			"loading": "उम्मीदवार लोड हो रहा है…",
+			"failed_load": "उम्मीदवार लोड नहीं हो सका",
+			"fallback_name": "उम्मीदवार #{}",
+			"share": {
+				"default_name": "किसी ने",
+				"message": "{} ने Roti Jugaad App पर एक प्रोफ़ाइल आपके साथ शेयर की है।",
+				"cta": "नए users को free Ad credits मिल रहे हैं — अभी देखें:"
+			},
+			"shortlist": "शॉर्टलिस्ट",
+			"unshortlist": "शॉर्टलिस्ट से हटाएँ",
+			"send_interest": "रुचि भेजें",
+			"get_contact": "संपर्क प्राप्त करें",
+			"no_contact_credits": "संपर्क क्रेडिट नहीं हैं",
+			"contact_credits_remaining": "आपके पास {}/{} संपर्क क्रेडिट शेष हैं।",
+			"failed_unlock_contact": "संपर्क अनलॉक नहीं हो सका।",
+			"tabs": {
+				"about": "परिचय",
+				"experience": "अनुभव",
+				"preferences": "पसंद"
+			},
+			"about": "परिचय",
+			"mobile_number": "मोबाइल नंबर",
+			"call_now": "अभी कॉल करें",
+			"age": "आयु",
+			"gender": "लिंग",
+			"aadhaar_number": "आधार नंबर",
+			"current_location": "वर्तमान स्थान",
+			"preferred_location": "पसंदीदा स्थान",
+			"preferred_job_location": "पसंदीदा कार्य स्थान",
+			"skills": "कौशल",
+			"qualification": "योग्यता",
+			"qualifications": "योग्यताएँ",
+			"expected_salary": "अपेक्षित वेतन",
+			"preferred_shift": "पसंदीदा शिफ्ट",
+			"email": "ईमेल आईडी",
+			"no_experience_added": "कोई अनुभव नहीं जोड़ा गया",
+			"experience": "अनुभव",
+			"no_preferences_found": "कोई पसंद नहीं मिली"
+		},
+		"send_interest": {
+			"no_employer_id": "नियोक्ता आईडी नहीं मिली। कृपया फिर से साइन इन करें।",
+			"select_job_title": "नौकरी चुनें",
+			"select_job_subtitle": "जिस नौकरी के लिए आप रुचि भेजना चाहते हैं उसे चुनें",
+			"select_at_least_one_job": "कम से कम एक नौकरी चुनें।",
+			"no_interest_credits": "रुचि क्रेडिट नहीं हैं",
+			"credits_needed_message": "आपको {} क्रेडिट{} की जरूरत है {} नौकरी{} के लिए, लेकिन केवल {}/{} उपलब्ध हैं।",
+			"shortlisted_success": "प्रोफ़ाइल सफलतापूर्वक शॉर्टलिस्ट हुई।",
+			"failed_load_jobs": "नौकरियाँ लोड नहीं हो सकीं",
+			"no_active_jobs_found": "कोई सक्रिय नौकरी नहीं मिली।"
+		},
+		"shortlist": {
+			"screen_title": "शॉर्टलिस्ट किए गए उम्मीदवार",
+			"empty": "कोई शॉर्टलिस्ट उम्मीदवार नहीं मिला",
+			"added": "उम्मीदवार सफलतापूर्वक शॉर्टलिस्ट किया गया।",
+			"removed": "उम्मीदवार को शॉर्टलिस्ट से हटा दिया गया।",
+			"failed": "शॉर्टलिस्ट अपडेट नहीं हो सकी।"
+		},
+		"report": {
+			"title": "प्रोफ़ाइल रिपोर्ट करें",
+			"already_reported_on": "आपने इस उम्मीदवार को पहले ही {} को रिपोर्ट किया है",
+			"reason_title": "कारण",
+			"reason_hint": "अपना कारण चुनें",
+			"description_title": "विवरण",
+			"description_hint": "यहाँ विवरण लिखें",
+			"select_reason": "कृपया एक कारण चुनें।",
+			"success": "उम्मीदवार सफलतापूर्वक रिपोर्ट किया गया",
+			"failed": "उम्मीदवार को रिपोर्ट नहीं किया जा सका।"
+		},
+		"call_experience": {
+			"share_title": "अपना कॉल अनुभव साझा करें",
+			"failed_load_options": "विकल्प लोड नहीं हो सके",
+			"no_options": "कोई विकल्प उपलब्ध नहीं है।",
+			"add_review": "विस्तृत समीक्षा जोड़ें",
+			"add_comments": "टिप्पणी जोड़ें",
+			"option_fallback": "विकल्प #{}",
+			"submitted_successfully": "कॉल अनुभव सफलतापूर्वक जमा हुआ"
+		},
+		"dialogs": {
+			"send_interest_title": "क्या आप रुचि भेजना चाहते हैं?",
+			"send_interest_message": "रुचि भेजने पर {} क्रेडिट कटेगा, अपडेटेड क्रेडिट {}/{} होगा",
+			"get_contact_title": "क्या आप संपर्क अनलॉक करना चाहते हैं?",
+			"get_contact_message": "संपर्क अनलॉक करने पर {} क्रेडिट कटेगा, अपडेटेड क्रेडिट {}/{} होगा",
+			"interest_sent_success": "रुचि सफलतापूर्वक भेजी गई!"
+		}
+	},
+	"filters": {
+		"advance_filter": "एडवांस फ़िल्टर",
+		"search": "खोजें",
+		"clear": "साफ़ करें",
+		"apply": "लागू करें",
+		"sections": {
+			"job_profile": "जॉब प्रोफ़ाइल",
+			"preferred_state": "पसंदीदा राज्य",
+			"preferred_city": "पसंदीदा शहर",
+			"salary_range": "वेतन सीमा",
+			"skill": "कौशल",
+			"business_category": "व्यवसाय श्रेणी",
+			"verification_status": "सत्यापन स्थिति",
+			"qualification": "योग्यता",
+			"experience": "अनुभव",
+			"gender": "लिंग",
+			"salary_type": "वेतन प्रकार",
+			"shift": "शिफ्ट",
+			"distance": "दूरी"
+		},
+		"received_interests": "प्राप्त रुचि",
+		"sent_interests": "भेजी गई रुचि",
+		"hired": "नियुक्त",
+		"rejected": "अस्वीकृत"
+	},
+	"terms": {
+		"employer": "नियोक्ता",
+		"employee": "कर्मचारी",
+		"male": "पुरुष",
+		"female": "महिला",
+		"experienced": "अनुभवी",
+		"any": "कोई भी",
+		"both": "दोनों",
+		"other": "अन्य",
+		"monthly": "मासिक",
+		"monthly_staff": "मासिक कर्मचारी",
+		"weekly": "साप्ताहिक",
+		"yearly": "वार्षिक",
+		"daily": "दैनिक",
+		"daily_wage_worker": "दैनिक मजदूर",
+		"pending": "लंबित",
+		"verified": "सत्यापित",
+		"rejected": "अस्वीकृत",
+		"months": "महीने",
+		"days": "दिन",
+		"weeks": "सप्ताह",
+		"years": "वर्ष",
+		"month": "महीना",
+		"day": "दिन",
+		"week": "सप्ताह",
+		"year": "वर्ष",
+		"approved": "स्वीकृत",
+		"active": "सक्रिय",
+		"inactive": "निष्क्रिय",
+		"expired": "समाप्त",
+		"applied": "आवेदन किया गया",
+		"hired": "नियुक्त",
+		"shortlisted": "चयनित",
+		"success": "सफल",
+		"failed": "असफल",
+		"init": "प्रारंभ",
+		"job": "नौकरी",
+		"monday": "सोमवार",
+		"tuesday": "मंगलवार",
+		"wednesday": "बुधवार",
+		"thursday": "गुरुवार",
+		"friday": "शुक्रवार",
+		"saturday": "शनिवार",
+		"sunday": "रविवार"
+	},
+	"auth": {
+		"tagline": "रोज़गार की शुरुआत",
+		"made_in": "भारत में निर्मित",
+		"india": "भारत",
+		"welcome_to_app": "रोटी जुगाड़ में आपका स्वागत है",
+		"welcome_headline": "नौकरी ढूंढना और \nभर्ती करना, अब और आसान!",
+		"select_language": "अपनी भाषा चुनें",
+		"have_account": "पहले से खाता है?",
+		"signin": {
+			"title": "अपने खाते में लॉगिन करें",
+			"subtitle": "अपने खाते में साइन इन करें",
+			"mobile_title": "मोबाइल नंबर",
+			"mobile_hint": "अपना मोबाइल नंबर दर्ज करें",
+			"request_otp": "ओटीपी माँगें",
+			"no_account": "खाता नहीं है?",
+			"not_registered_message": "आपका नंबर पंजीकृत नहीं है। क्या आप साइन अप करना चाहते हैं?"
+		},
+		"signup": {
+			"title": "शुरू करें",
+			"subtitle": "यहाँ अपना खाता बनाएं",
+			"name_title": "नाम",
+			"name_hint": "अपना नाम दर्ज करें",
+			"mobile_title": "मोबाइल नंबर",
+			"mobile_hint": "अपना मोबाइल नंबर दर्ज करें",
+			"referred_by_title": "रेफर किया गया",
+			"referred_by_hint": "रेफरल कोड दर्ज करें"
+		},
+		"user_type": {
+			"employee_button": "नौकरी ढूंढें",
+			"employer_button": "कर्मचारी ढूंढें"
+		},
+		"otp": {
+			"title": "ओटीपी सत्यापन",
+			"subtitle_generic": "कृपया आपके मोबाइल नंबर पर भेजा गया ओटीपी दर्ज करें",
+			"subtitle_with_mobile": "कृपया +91 {} पर भेजा गया ओटीपी दर्ज करें",
+			"send_in": "{} में ओटीपी भेजें",
+			"resend": "ओटीपी फिर से भेजें",
+			"agree_prefix": "प्लेटफ़ॉर्म में प्रवेश करके, आप हमारी",
+			"terms": "नियम व शर्तें"
+		},
+		"not_registered": {
+			"title": "पंजीकृत नहीं!"
+		}
+	}
+}

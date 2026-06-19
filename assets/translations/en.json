@@ -1,0 +1,870 @@
+{
+	"common": {
+		"cancel": "Cancel",
+		"from": "From",
+		"to": "To",
+		"save": "Save",
+		"retry": "Retry",
+		"login": "Login",
+		"sign_up": "Sign up",
+		"continue": "Continue",
+		"submit": "Submit",
+		"next": "Next",
+		"ok": "OK",
+		"got_it": "Got it",
+		"view_all": "View all",
+		"not_available": "Not available",
+		"click_to_continue": "Click to continue",
+		"unable_to_continue": "Unable to continue",
+		"otp_sent": "OTP sent",
+		"send_otp": "Send OTP",
+		"request_otp": "Request OTP",
+		"verify_otp": "Verify OTP",
+		"verify": "Verify",
+		"resend_otp": "Resend OTP",
+		"please_enter_otp": "Please enter OTP",
+		"invalid_otp_title": "Invalid OTP",
+		"invalid_otp_message": "Please enter 4-digit OTP",
+		"failed_to_request_otp": "Failed to request OTP",
+		"failed_to_verify_otp": "Failed to verify OTP",
+		"failed_to_load": "Failed to load",
+		"maybe_later": "Maybe later",
+		"link_unavailable": "{} link is not available right now.",
+		"could_not_open_link": "Could not open {} link.",
+		"change_language": "Change Language",
+		"buy_subscription": "Buy Subscription",
+		"view_history": "View history",
+		"change": "Change",
+		"logout": "Logout",
+		"update": "Update",
+		"edit": "Edit",
+		"delete": "Delete",
+		"post": "Post",
+		"optional": "Optional",
+		"updating": "Updating...",
+		"posting": "Posting...",
+		"loading": "Loading",
+		"copy": "Copy",
+		"skip": "Skip",
+		"finish": "Finish",
+		"upload": "Upload",
+		"applied_on": "Applied on {}",
+		"hired_on": "Hired on {}",
+		"rejected_on": "Rejected on {}",
+		"vacancy": "{} Vacancy",
+		"vacancies": "{} Vacancies",
+		"hired_count": "{} Hired",
+		"salary_not_specified": "Salary not specified",
+		"up_to": "Up to {}",
+		"of": "{} of {}",
+		"press_back_again_to_exit": "Press back again to exit"
+	},
+	"errors": {
+		"unable_to_load_user_id": "Unable to load user id",
+		"no_employee_id": "Employee ID not found",
+		"no_employer_id": "Employer ID not found"
+	},
+	"applicants": {
+		"title": "Applicants",
+		"details_title": "Applicant Details",
+		"empty": "No applicants found",
+		"hire": {
+			"title": "Hire Applicant",
+			"subtitle": "To hire this applicant, verify OTP.",
+			"points": {
+				"1": "An OTP will be sent to the applicant.",
+				"2": "Enter the OTP to confirm hiring."
+			}
+		}
+	},
+	"subscriptions": {
+		"active_plan": "Active Plan",
+		"buy_plan": "Buy Plan",
+		"valid_for_days": "for {} days",
+		"screen": {
+			"title": "Subscription"
+		},
+		"no_active_plan": "No Active Plan",
+		"plans": {
+			"empty": "No plans found"
+		},
+		"valid_till": "Valid till {}",
+		"credits": {
+			"contact": "Contact Credits",
+			"interest": "Interest Credits",
+			"ads": "Ads Credits"
+		},
+		"payment": {
+			"unable_to_start": "Unable to start payment",
+			"success": "Payment successful",
+			"failed": "Payment failed",
+			"pending": "Payment pending"
+		},
+		"payment_history": {
+			"title": "Payment History",
+			"empty": "No payments found",
+			"paid_at": "Paid at {}",
+			"order_id": "Order ID : {}",
+			"order_id_copied": "Order ID copied"
+		},
+		"dialog": {
+			"no_subscription": "No subscription",
+			"no_job_post_credits": "No Job Post credits found"
+		},
+		"free_credits": "Free Credits"
+	},
+	"applications": {
+		"tabs": {
+			"sent": "Sent",
+			"received": "Received"
+		},
+		"empty": {
+			"sent": "No sent applications.",
+			"received": "No received applications."
+		},
+		"vacancy_left": "{} Vacancy left",
+		"vacancies_left": "{} Vacancies left"
+	},
+	"wishlist": {
+		"empty": "No jobs in wishlist.",
+		"failed_to_load": "Failed to load wishlist."
+	},
+	"job_details": {
+		"failed_send_interest": "Failed to send interest.",
+		"posted_not_available": "Posted date not available",
+		"posted_on": "Posted on {}",
+		"link_unavailable": "Link not available.",
+		"share": {
+			"default_name": "Someone",
+			"message": "{} shared a job for you on the Roti Jugaad App.",
+			"cta": "New users are getting free credits — apply now:"
+		},
+		"already_reported_on": "You have already reported the job on {}",
+		"not_available": "Job details not available.",
+		"about_org": "About {}",
+		"about_job": "About Job",
+		"sent_interest": "Sent Interest",
+		"received_interest": "Received Interest",
+		"hire": "Hire",
+		"free_gifts_after_hiring": "Avail Free Gifts After Hiring",
+		"sent_on": "Sent on {}",
+		"received_on": "Received on {}",
+		"hiring_otp": "Hiring OTP",
+		"matching_otp": "Matching OTP",
+		"description_not_available": "Job description not available.",
+		"shift": "Work Timings ({})",
+		"work_time_job_type": "Work Timings",
+		"who_can_apply": "Who can apply",
+		"skills": "Skills",
+		"incentives": "Incentives",
+		"calling_hours": "Calling hours between 10 AM - 7 PM",
+		"address_details": "Address Details",
+		"directions": "Directions",
+		"work_days_single": "{} {} a week ({})",
+		"work_days_range": "{} {} a week ({})"
+	},
+	"history": {
+		"screen": {
+			"title": "History"
+		},
+		"tabs": {
+			"contacts": "Contacts",
+			"interests": "Interests",
+			"ads": "Ads"
+		},
+		"empty": "No history found",
+		"contact_details": "Contact Details",
+		"interest_details": "Interest Details",
+		"unlocked_on": "Unlocked on {}",
+		"sent_on": "Sent on {}",
+		"view_profile": "View Profile",
+		"repost_ad": "Repost Ad"
+	},
+	"support": {
+		"screen": {
+			"title": "Help & Support"
+		},
+		"call_us": "Call us",
+		"write_to_us": "Write to us",
+		"phone_unavailable": "Phone number not available",
+		"email_unavailable": "Email not available",
+		"could_not_open_dialer": "Could not open dialer",
+		"could_not_open_email": "Could not open email"
+	},
+	"verify": {
+		"identity": {
+			"title": "Verify Identity",
+			"verify_aadhaar_title": "Verify Aadhaar",
+			"verify_aadhaar_desc": "Verify your Aadhaar identity",
+			"selfie_title": "Selfie Photo",
+			"selfie_desc": "Take a clear selfie to verify identity",
+			"unable_find_profile": "Unable to find profile",
+			"verified_success": "Identity verified successfully",
+			"kyc_verified_success": "KYC verified successfully",
+			"employer_note": "Note: Please verify your Aadhaar or upload document to receive a verified tag on your ad, enhancing more applicants to apply on your job.",
+			"upload_documents": "Upload Documents",
+			"upload_documents_desc": "MSME Certificate, FSSAI License, Pan Card...",
+			"complete_profile_first": "Please complete your profile first",
+			"failed_document_upload": "Failed to upload document",
+			"document_uploaded_success": "Document uploaded successfully",
+			"profile_completed_success": "Profile completed successfully",
+			"verify_aadhaar_first": "Please verify Aadhaar first.",
+			"capture_selfie_first": "Please capture your selfie photo first.",
+			"verify_aadhaar_and_selfie_first": "Please verify Aadhaar and capture your selfie photo first.",
+			"verify_aadhaar_or_document_first": "Please verify Aadhaar or upload a document first.",
+			"capture_selfie_title": "Take a Selfie for Verification",
+			"capture_selfie_desc": "Ensure your face is clearly visible in a well-lit environment.",
+			"unable_access_camera": "Unable to access camera",
+			"unable_capture_selfie": "Unable to capture selfie"
+		},
+		"aadhaar": {
+			"title": "Aadhaar Number",
+			"hint": "Enter Aadhaar number",
+			"invalid": "Invalid Aadhaar number"
+		},
+		"otp": {
+			"sent_to_registered": "OTP sent to your registered mobile number"
+		}
+	},
+	"job": {
+		"form": {
+			"screen_title": {
+				"add": "Add a New Job",
+				"edit": "Edit Job"
+			},
+			"job_title": {
+				"label": "Job Title",
+				"hint": "Please select job title"
+			},
+			"job_designation": {
+				"label": "Job Designation",
+				"hint": "Enter job designation"
+			},
+			"job_designation_hindi": {
+				"label": "Job Designation Hindi",
+				"hint": "Enter job designation in Hindi"
+			},
+			"household_help_job": "Household Help Job",
+			"org_name": {
+				"label": "Organization Name",
+				"hint": "Enter organization / firm name"
+			},
+			"business_category": {
+				"label": "Business Category",
+				"hint": "Select business category"
+			},
+			"job_description": {
+				"label": "Job Description",
+				"hint": "Enter your job description"
+			},
+			"vacancies": {
+				"label": "No. of vacancies",
+				"hint": "Please select vacancy"
+			},
+			"skills": "Skills",
+			"experience": "Experience",
+			"gender": "Gender",
+			"qualifications": "Qualifications",
+			"interviewer_contact": {
+				"label": "Interviewer Contact Number",
+				"hint": "Enter the contact number",
+				"verified_success": "Interviewer mobile verified successfully"
+			},
+			"same_as_current_number": "Same as current number",
+			"job_address": {
+				"label": "Job Address",
+				"hint": "Enter the full job address"
+			},
+			"same_as_current_address": "Same as current address",
+			"same_as_firm_address": "Same as firm address",
+			"same_as_household_address": "Same as household address",
+			"job_state": {
+				"label": "Job State",
+				"hint": "Please select state"
+			},
+			"same_as_current_state": "Same as current state",
+			"job_city": {
+				"label": "Job City",
+				"hint": "Please select city",
+				"loading": "Loading cities...",
+				"select_state_first": "Select state first"
+			},
+			"same_as_current_city": "Same as current city",
+			"job_benefits": "Job Benefits",
+			"other_benefits": {
+				"label": "Any other benefits",
+				"hint": "Any other benefits"
+			},
+			"salary_range": {
+				"label": "Salary Range"
+			},
+			"shift_type": "Shift type",
+			"working_hours": {
+				"label": "Working Hours"
+			},
+			"working_days": {
+				"label": "Working Days"
+			},
+			"validation": {
+				"complete_profile_first": "Please complete your profile first",
+				"select_job_title": "Please select job title",
+				"enter_contact_number": "Please enter the contact number",
+				"verify_interviewer_contact_number": "Please verify interviewer contact number",
+				"enter_job_address": "Please enter job address",
+				"select_job_state": "Please select job state",
+				"select_job_city": "Please select job city",
+				"select_salary_type": "Please select salary type",
+				"enter_valid_salary_range": "Please enter valid salary range",
+				"select_working_hours": "Please select working hours",
+				"invalid_working_hours": "Invalid working hours",
+				"select_working_days": "Please select working days",
+				"select_experience": "Please select at least one experience",
+				"select_gender": "Please select at least one gender",
+				"select_qualification": "Please select at least one qualification",
+				"select_shift_type": "Please select at least one shift type",
+				"enter_job_location": "Please enter job location",
+				"enter_org_name": "Please enter organization name",
+				"select_business_category": "Please select business category",
+				"select_vacancies": "Please select number of vacancies"
+			},
+			"success": {
+				"updated": "Job updated successfully",
+				"added": "Job added successfully"
+			},
+			"errors": {
+				"unable_to_load_employer_mobile": "Unable to load employer mobile number",
+				"unable_to_load_employer_address": "Unable to load employer address",
+				"unable_to_load_employer_state": "Unable to load employer state",
+				"unable_to_load_employer_city": "Unable to load employer city"
+			},
+			"job_location": {
+				"label": "Job Location",
+				"hint": "Search job location"
+			}
+		},
+		"report": {
+			"title": "Report Job",
+			"reason": {
+				"title": "Reason",
+				"hint": "Select a reason",
+				"required": "Please select a reason"
+			},
+			"description": {
+				"title": "Description",
+				"hint": "Write description"
+			},
+			"success": "Report submitted successfully",
+			"failed": "Unable to submit report"
+		}
+	},
+	"profile": {
+		"credits_valid_till_empty": "Credits Valid till —",
+		"credits_expired_on_prefix": "Credits expired on ",
+		"credits_valid_till_prefix": "Credits Valid till ",
+		"hired_jobs": "Hired Jobs",
+		"update": {
+			"email_required": "Email is required",
+			"address_required": "Address is required",
+			"org_required": "Organization name is required",
+			"success": "Profile updated successfully",
+			"unable": "Unable to update profile"
+		},
+		"refer_sheet": {
+			"title": "Refer & Earn",
+			"tagline": "Invite friends and earn rewards",
+			"how_it_works": "How it works",
+			"share_message": {
+				"default_name": "Someone",
+				"invite": "{} invited you to join the Roti Jugaad App.",
+				"cta": "Use referral code and get free credits: {} |"
+			},
+			"points": {
+				"1": "Share your referral code with friends.",
+				"2": "They sign up using your code.",
+				"3": "You both get rewards."
+			},
+			"copy": "Copy",
+			"share": "Share",
+			"share_your_code": "Share your code"
+		},
+		"change_mobile": {
+			"resend_in": "Resend OTP in {}",
+			"otp_sent_to": "OTP sent to +91 {}",
+			"success": "Mobile number updated successfully"
+		},
+		"rate_review": {
+			"title": "Rate & Review",
+			"subtitle": "Your feedback helps us improve",
+			"review_label": "Review",
+			"comment_hint": "Write your comments",
+			"submitted": "Your review is submitted."
+		},
+		"photo": {
+			"title": "Profile Photo",
+			"change": "Change Photo",
+			"locked_after_verification": "Profile picture cannot be changed after verification"
+		},
+		"verified": {
+			"title": "Verified Profile",
+			"subtitle": "Your profile is verified",
+			"selfie_title": "Selfie Verified",
+			"selfie_desc": "Your selfie has been verified.",
+			"aadhaar_title": "Aadhaar Verified",
+			"aadhaar_desc": "Your Aadhaar has been verified."
+		},
+		"kyc_verified": {
+			"title": "KYC Verified",
+			"subtitle": "Your identity has been verified via KYC",
+			"viewed_subtitle": "This user's identity has been verified via KYC",
+			"selfie_title": "Selfie Verified",
+			"selfie_desc": "Your selfie has been verified.",
+			"viewed_selfie_desc": "This user's selfie has been verified.",
+			"aadhaar_title": "Aadhaar Verified",
+			"aadhaar_desc": "Your Aadhaar has been verified.",
+			"viewed_aadhaar_desc": "This user's Aadhaar has been verified."
+		},
+		"employer": {
+			"name": "Name",
+			"organization_type": "Hiring for",
+			"organization_type_domestic": "Household",
+			"organization_type_firm": "Firm",
+			"organization_name": "Organization Name",
+			"business_category": "Business Category",
+			"select_business_category": "Select business category",
+			"state": "State",
+			"select_state": "Select state",
+			"loading_cities": "Loading cities...",
+			"city": "City",
+			"select_state_first": "Select state first",
+			"select_city": "Select city",
+			"address": "Address",
+			"email": "Email",
+			"assisted_by": "Assisted By"
+		},
+		"employee": {
+			"continue_to_job_profile": "Continue to Job Profile",
+			"name_required": "Name is required",
+			"dob_required": "Please select date of birth",
+			"dob_minimum_age": "You must be at least 18 years old",
+			"gender_required": "Please select gender",
+			"failed_to_save": "Failed to save personal info",
+			"name": "Name",
+			"enter_name": "Enter your name",
+			"date_of_birth": "Date of Birth",
+			"select_date_of_birth": "Select your date of birth",
+			"gender": "Gender",
+			"state": "State",
+			"select_state": "Please select your state",
+			"city": "City",
+			"select_city": "Please select your city",
+			"select_state_first": "Select state first",
+			"preferred_state": "Preferred Job State",
+			"select_preferred_state": "Select your preferred job state",
+			"same_as_current_state": "Same as current state",
+			"preferred_city": "Preferred Job City",
+			"select_preferred_city": "Select your preferred job city",
+			"select_preferred_state_first": "Select preferred state first",
+			"same_as_current_city": "Same as current city",
+			"preferred_location": "Preferred Job Location",
+			"preferred_location_hint": "Search your preferred job location",
+			"skills": "Skills",
+			"qualification": "Qualification",
+			"select_qualification": "Please select your qualification",
+			"expected_salary": "Expected Salary",
+			"expected_salary_hint": "Enter your expected salary",
+			"preferred_shift": "Preferred Shift",
+			"select_shift": "Please Select Shift",
+			"assistant_code": "Assistant Code",
+			"enter_assistant_code": "Enter assistant code",
+			"email": "Email ID",
+			"enter_email": "Enter your email",
+			"about_me": "About me",
+			"about_hint": "Write some description about you",
+			"state_required": "Please select state",
+			"city_required": "Please select city",
+			"preferred_state_required": "Please select preferred job state",
+			"preferred_city_required": "Please select preferred job city",
+			"qualification_required": "Please select qualification",
+			"expected_salary_required": "Please enter your expected salary",
+			"shift_required": "Please Select Shift",
+			"preferred_location_required": "Please enter preferred job location"
+		},
+		"flow": {
+			"job_profiles": "Job Profiles",
+			"experiences": "Experiences",
+			"experience": "Experience",
+			"add_experience": "Add Experience",
+			"edit_experience": "Edit Experience",
+			"documents": "Documents",
+			"select_upto_three_job_profiles": "Select upto 3 Job Profiles",
+			"select_at_least_one_job_profile": "Please select at least 1 job profile",
+			"unable_to_load_user_details": "Unable to load user details",
+			"unable_to_load_employee_details": "Unable to load employee details",
+			"no_experiences_added_yet": "No experiences added yet",
+			"add_new_experience": "Add New Experience",
+			"add_more_experience": "Add More Experience",
+			"delete_experience_title": "Delete experience?",
+			"delete_experience_message": "This will remove the experience permanently.",
+			"select_document_type": "Select Experience Document",
+			"select_document_type_hint": "Please select experience document",
+			"please_select_document_type": "Please select experience document",
+			"nature_of_work": "Previous Job Role",
+			"nature_of_work_hint": "Please select previous job role",
+			"please_select_nature_of_work": "Please select previous job role",
+			"previous_firm": "Previous Firm Name",
+			"previous_firm_hint": "Enter previous firm name",
+			"previous_firm_required": "Please enter previous firm name",
+			"duration_of_work": "Duration of Work",
+			"duration_of_work_hint": "Enter duration of work",
+			"duration_of_work_required": "Please enter duration of work",
+			"upload_document": "Upload Experience Document",
+			"choose_file_upload": "Choose a file to upload",
+			"view_document": "View uploaded document",
+			"document": "Document",
+			"hired_on": "Hired on",
+			"no_hired_jobs": "No hired jobs"
+		},
+		"additional_documents": {
+			"title": "Additional Documents",
+			"select_document_type": "Select document type",
+			"select_document_type_hint": "Please select document type",
+			"please_select_document_type": "Please select document type",
+			"upload_document": "Upload additional document",
+			"note": "Note: Contact information should not be included in any uploaded document.",
+			"upload_new_document": "Upload new document",
+			"uploaded_documents": "Uploaded documents",
+			"no_file_selected": "No file selected",
+			"upload_document_btn": "Upload document",
+			"document_uploaded_success": "Document uploaded successfully"
+		},
+		"screen": {
+			"title": "My Profile"
+		},
+		"resubmit": {
+			"title": "Resubmit Profile"
+		},
+		"plan": {
+			"basic": "Basic Plan"
+		},
+		"credits": {
+			"contact": "Contact Credits",
+			"interest": "Interest Credits",
+			"ads": "Ads Credits"
+		},
+		"upgrade": {
+			"title": "Upgrade your plan",
+			"subtitle": "Get access to premium features with our Plans."
+		},
+		"refer": {
+			"title": "Refer & Earn",
+			"subtitle": "Invite your friends and earn credits when they join!"
+		},
+		"sections": {
+			"account_settings": "Account Settings",
+			"work_job_history": "Work & Job History",
+			"app_privacy": "App & Privacy Settings",
+			"general_support": "General & Support"
+		},
+		"actions": {
+			"edit_profile": "Edit Profile",
+			"update_profile": "Update Profile",
+			"change_mobile": "Change Mobile Number",
+			"update_experiences": "Update Experiences",
+			"update_preferences": "Update Preferences",
+			"additional_documents": "Additional Documents",
+			"shortlisted_candidates": "Shortlisted Candidates",
+			"payment_history": "Payment History",
+			"privacy_policy": "Privacy Policy",
+			"terms_conditions": "Terms & Conditions",
+			"refund_policy": "Refund Policy",
+			"help_support": "Help & Support",
+			"rate_review": "Rate & Review",
+			"share_app": "Share App"
+		},
+		"complete": {
+			"title": "Complete Profile"
+		},
+		"verification": {
+			"aadhaar_pending": "Aadhaar verification pending",
+			"kyc_in_review": "KYC in review",
+			"aadhaar_rejected": "Aadhaar verification rejected",
+			"pending_approval": "Pending approval",
+			"verify_now": "Verify now",
+			"verify_again": "Verify again",
+			"profile_rejected": "Profile rejected"
+		},
+		"incomplete": {
+			"title": "Profile Incomplete",
+			"message": "Please Complete Your Profile to continue",
+			"later": "Do it later"
+		},
+		"logout": {
+			"title": "Are you sure you want to Logout?",
+			"confirm": "Yes Logout"
+		},
+		"delete_account": {
+			"title": "Request account deletion?",
+			"message": "Your account deletion request will be submitted to the admin team for review.",
+			"button": "Delete Account",
+			"submitted": "Account deletion request submitted.",
+			"failed": "Failed to submit account deletion request."
+		}
+	},
+	"language": {
+		"choose_language": "Choose your language to personalize your experience"
+	},
+	"nav": {
+		"jobs": "Jobs",
+		"applications": "Applications",
+		"wishlist": "Wishlist",
+		"profile": "Profile",
+		"candidates": "Candidates",
+		"applicants": "Applicants"
+	},
+	"jobs": {
+		"stories": {
+			"title": "Roti Jugaad Stories"
+		},
+		"search": {
+			"hint": "Search job post"
+		},
+		"filters": "Filters",
+		"tabs": {
+			"all": "All Jobs",
+			"recommended": "AI Recommended"
+		},
+		"count": "{} jobs",
+		"near_you": "{} near you based on your profile.",
+		"recommended": {
+			"title": "AI Recommended",
+			"count": "{} recommended jobs"
+		},
+		"empty": {
+			"all": "No jobs found.",
+			"recommended": "No recommended jobs found.",
+			"complete_profile": "Complete your profile to view recommended jobs."
+		},
+		"card": {
+			"job_fallback": "Job"
+		}
+	},
+	"employer_jobs": {
+		"title": "Jobs",
+		"add_new_job": "Add a new job",
+		"no_jobs_found": "No jobs found",
+		"job_fallback": "Job #{}",
+		"job_details": "Job Details"
+	},
+	"candidates": {
+		"welcome": "Welcome,",
+		"welcome_back": "Welcome Back,",
+		"post_ad": "Post Ad",
+		"search_job_profile": "Search job profile",
+		"empty": "No candidates found",
+		"complete_profile": "Complete your profile to view recommended candidates.",
+		"tabs": {
+			"all": "All",
+			"recommended": "AI Recommended"
+		},
+		"detail": {
+			"title": "Candidate Details",
+			"loading": "Loading candidate…",
+			"failed_load": "Failed to load candidate",
+			"fallback_name": "Candidate #{}",
+			"share": {
+				"default_name": "Someone",
+				"message": "{} shared a profile with you on the Roti Jugaad App.",
+				"cta": "New users are getting free Ad credits — check it out now:"
+			},
+			"shortlist": "Shortlist",
+			"unshortlist": "Remove from shortlist",
+			"send_interest": "Send Interest",
+			"get_contact": "Get Contact",
+			"no_contact_credits": "No Contact Credits",
+			"contact_credits_remaining": "You have {}/{} contact credits remaining.",
+			"failed_unlock_contact": "Failed to unlock contact.",
+			"tabs": {
+				"about": "About",
+				"experience": "Experience",
+				"preferences": "Preferences"
+			},
+			"about": "About",
+			"mobile_number": "Mobile Number",
+			"call_now": "Call Now",
+			"age": "Age",
+			"gender": "Gender",
+			"aadhaar_number": "Aadhaar Number",
+			"current_location": "Current Location",
+			"preferred_location": "Preferred Location",
+			"preferred_job_location": "Preferred Job Location",
+			"skills": "Skills",
+			"qualification": "Qualification",
+			"qualifications": "Qualifications",
+			"expected_salary": "Expected Salary",
+			"preferred_shift": "Preferred Shift",
+			"email": "Email ID",
+			"no_experience_added": "No experience added",
+			"experience": "Experience",
+			"no_preferences_found": "No preferences found"
+		},
+		"send_interest": {
+			"no_employer_id": "Employer ID not found. Please sign in again.",
+			"select_job_title": "Select Job",
+			"select_job_subtitle": "Select Job For Which You Want To Send Interest",
+			"select_at_least_one_job": "Select at least one job.",
+			"no_interest_credits": "No Interest Credits",
+			"credits_needed_message": "You need {} credit{} for {} job{}, but only {}/{} available.",
+			"shortlisted_success": "Profile shortlisted successfully.",
+			"failed_load_jobs": "Failed to load jobs",
+			"no_active_jobs_found": "No active jobs found."
+		},
+		"shortlist": {
+			"screen_title": "Shortlisted Candidates",
+			"empty": "No shortlisted candidates found",
+			"added": "Candidate shortlisted successfully.",
+			"removed": "Candidate removed from shortlist.",
+			"failed": "Failed to update shortlist."
+		},
+		"report": {
+			"title": "Report Profile",
+			"already_reported_on": "You have already reported this candidate on {}",
+			"reason_title": "Reason",
+			"reason_hint": "Select your reason",
+			"description_title": "Description",
+			"description_hint": "Write description here",
+			"select_reason": "Please select a reason.",
+			"success": "Candidate reported successfully",
+			"failed": "Failed to report candidate."
+		},
+		"call_experience": {
+			"share_title": "Share your call experience",
+			"failed_load_options": "Failed to load options",
+			"no_options": "No options available.",
+			"add_review": "Add detailed review",
+			"add_comments": "Add comments",
+			"option_fallback": "Option #{}",
+			"submitted_successfully": "Call experience submitted successfully"
+		},
+		"dialogs": {
+			"send_interest_title": "Do you want to Send Interest?",
+			"send_interest_message": "You will be charged {} credit to send interest, your updated credit would be {}/{}",
+			"get_contact_title": "Do you want to Unlock the Contact?",
+			"get_contact_message": "You will be charged {} credit to unlock the contact, your updated credit would be {}/{}",
+			"interest_sent_success": "Interest Sent Successfully!"
+		}
+	},
+	"filters": {
+		"advance_filter": "Advance Filter",
+		"search": "Search",
+		"clear": "Clear",
+		"apply": "Apply",
+		"sections": {
+			"job_profile": "Job Profile",
+			"preferred_state": "Preferred State",
+			"preferred_city": "Preferred City",
+			"salary_range": "Salary Range",
+			"skill": "Skill",
+			"business_category": "Business Category",
+			"verification_status": "Verification Status",
+			"qualification": "Qualification",
+			"experience": "Experience",
+			"gender": "Gender",
+			"salary_type": "Salary Type",
+			"shift": "Shift",
+			"distance": "Distance"
+		},
+		"received_interests": "Received Interests",
+		"sent_interests": "Sent Interests",
+		"hired": "Hired",
+		"rejected": "Rejected"
+	},
+	"terms": {
+		"employer": "Employer",
+		"employee": "Employee",
+		"monday": "Monday",
+		"tuesday": "Tuesday",
+		"wednesday": "Wednesday",
+		"thursday": "Thursday",
+		"friday": "Friday",
+		"saturday": "Saturday",
+		"sunday": "Sunday",
+		"male": "Male",
+		"female": "Female",
+		"experienced": "Experienced",
+		"any": "Any",
+		"both": "Both",
+		"other": "Other",
+		"monthly": "Monthly",
+		"monthly_staff": "Monthly Staff",
+		"weekly": "Weekly",
+		"yearly": "Yearly",
+		"daily": "Daily",
+		"daily_wage_worker": "Daily Wage Worker",
+		"pending": "Pending",
+		"verified": "Verified",
+		"rejected": "Rejected",
+		"months": "Months",
+		"days": "Days",
+		"weeks": "Weeks",
+		"years": "Years",
+		"month": "Month",
+		"day": "Day",
+		"week": "Week",
+		"year": "Year",
+		"approved": "Approved",
+		"active": "Active",
+		"inactive": "Inactive",
+		"expired": "Expired",
+		"applied": "Applied",
+		"hired": "Hired",
+		"shortlisted": "Shortlisted",
+		"success": "Success",
+		"failed": "Failed",
+		"init": "Init",
+		"job": "Job"
+	},
+	"auth": {
+		"tagline": "Start your work journey",
+		"made_in": "Made in",
+		"india": "INDIA",
+		"welcome_to_app": "Welcome to Roti Jugaad",
+		"welcome_headline": "Simplifying Job Search \nand Hiring, Just for You!",
+		"select_language": "Select your language / अपनी भाषा चुनें",
+		"have_account": "Already have an account?",
+		"signin": {
+			"title": "Login to your Account",
+			"subtitle": "Let’s sign in to your account",
+			"mobile_title": "Mobile Number",
+			"mobile_hint": "Enter your mobile number",
+			"request_otp": "Request OTP",
+			"no_account": "Don't have an account?",
+			"not_registered_message": "Your number is not registered. Would you like to sign up?"
+		},
+		"signup": {
+			"title": "Getting Started",
+			"subtitle": "Let's create your account here",
+			"name_title": "Name",
+			"name_hint": "Enter your name",
+			"mobile_title": "Mobile Number",
+			"mobile_hint": "Enter your mobile number",
+			"referred_by_title": "Referred by",
+			"referred_by_hint": "Enter referral code"
+		},
+		"user_type": {
+			"employee_button": "Searching for Job/नौकरी ढूंढे",
+			"employer_button": "Searching for Staff/कर्मचारी ढूंढे"
+		},
+		"otp": {
+			"title": "OTP Verification",
+			"subtitle_generic": "Please enter the OTP sent to your mobile number",
+			"subtitle_with_mobile": "Please enter the OTP sent to your +91 {}",
+			"send_in": "Send OTP in {}",
+			"resend": "Resend OTP",
+			"agree_prefix": "By entering the platform you agree to our",
+			"terms": "Terms & Conditions"
+		},
+		"not_registered": {
+			"title": "Not Registered!"
+		}
+	}
+}
