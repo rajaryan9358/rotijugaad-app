@@ -20,6 +20,7 @@ import 'package:rotijugaad/theme/context_ext.dart';
 import 'package:rotijugaad/wishlist/screens/wishlist_screen.dart';
 import 'package:rotijugaad/deeplinks/deep_link_pending.dart';
 import 'package:rotijugaad/container/container_nav.dart';
+import 'package:rotijugaad/editprofile/dialogs/dob_required_dialog.dart';
 
 class MainContainer extends StatefulWidget {
   const MainContainer({super.key});
@@ -99,6 +100,7 @@ class _MainContainerState extends State<MainContainer> {
         await context.read<EmployeesProvider>().refreshEmployeeDetail(
           profileId,
         );
+        await _maybeShowDobRequiredDialog(profileId);
       }
     }
 
@@ -106,6 +108,22 @@ class _MainContainerState extends State<MainContainer> {
 
     if (!mounted) return;
     setState(() {});
+  }
+
+  Future<void> _maybeShowDobRequiredDialog(int employeeId) async {
+    if (!mounted) return;
+    final profileJson = SharedPrefUtils.readJson(SharedPrefUtils.AUTH_PROFILE_JSON);
+    final dob = profileJson?['dob'];
+    if (dob != null && dob.toString().trim().isNotEmpty) return;
+
+    await showDialog<void>(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) => DobRequiredDialog(employeeId: employeeId),
+    );
+
+    if (!mounted) return;
+    await context.read<EmployeesProvider>().refreshEmployeeDetail(employeeId);
   }
 
   Future<void> _maybeShowIncompleteProfileDialog() async {

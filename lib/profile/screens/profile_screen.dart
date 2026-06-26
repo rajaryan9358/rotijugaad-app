@@ -429,6 +429,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
     _authProfileJson?["total_ad_credit"],
   );
 
+  String get _contactCreditsLeft => _fmtNum(_authProfileJson?["contact_credit"]);
+  String get _interestCreditsLeft => _fmtNum(_authProfileJson?["interest_credit"]);
+  String get _adCreditsLeft => _fmtNum(_authProfileJson?["ad_credit"]);
+
   DateTime? _parseDate(dynamic v) {
     if (v == null) return null;
     if (v is DateTime) return v;
@@ -729,12 +733,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                                 fontWeight: FontWeight.w500,
                                               ),
                                         ),
+                                        SizedBox(height: context.spacing.xs),
+                                        Text(
+                                          'common.credits_left'.tr(args: [_contactCreditsLeft]),
+                                          style: context.text.bodySmall!.copyWith(color: context.colors.secondary),
+                                        ),
                                       ],
                                     ),
                                   ),
                                   Container(
                                     width: 1,
-                                    height: 40,
+                                    height: 64,
                                     color: context.xcolors.stroke,
                                   ),
                                   Expanded(
@@ -759,6 +768,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                                 color: context.colors.primary,
                                                 fontWeight: FontWeight.w500,
                                               ),
+                                        ),
+                                        SizedBox(height: context.spacing.xs),
+                                        Text(
+                                          'common.credits_left'.tr(args: [_interestCreditsLeft]),
+                                          style: context.text.bodySmall!.copyWith(color: context.colors.secondary),
                                         ),
                                       ],
                                     ),
@@ -790,6 +804,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                                   color: context.colors.primary,
                                                   fontWeight: FontWeight.w500,
                                                 ),
+                                          ),
+                                          SizedBox(height: context.spacing.xs),
+                                          Text(
+                                            'common.credits_left'.tr(args: [_adCreditsLeft]),
+                                            style: context.text.bodySmall!.copyWith(color: context.colors.secondary),
                                           ),
                                         ],
                                       ),

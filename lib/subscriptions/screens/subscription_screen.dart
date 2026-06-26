@@ -156,6 +156,23 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
     );
   }
 
+  String _creditLeft(Map<String, dynamic>? credits, String key) {
+    final k = key.toLowerCase();
+    final bucket = _creditBucket(credits, k);
+    final adAvailableFallback = k == 'ad'
+        ? (credits?['ads_credit'] ?? credits?['ads_credits'])
+        : null;
+    final available = _asNum(
+      bucket?['available'] ??
+          bucket?['remaining'] ??
+          bucket?['balance'] ??
+          adAvailableFallback ??
+          credits?['${k}_credit'],
+    );
+    if (available == available.roundToDouble()) return available.toInt().toString();
+    return available.toStringAsFixed(2);
+  }
+
   String _creditText(Map<String, dynamic>? credits, String key) {
     final k = key.toLowerCase();
     final bucket = _creditBucket(credits, k);
@@ -617,12 +634,17 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                                                 fontWeight: FontWeight.w500,
                                               ),
                                         ),
+                                        SizedBox(height: context.spacing.xs),
+                                        Text(
+                                          'common.credits_left'.tr(args: [_creditLeft(credits, 'contact')]),
+                                          style: context.text.bodySmall!.copyWith(color: context.colors.secondary),
+                                        ),
                                       ],
                                     ),
                                   ),
                                   Container(
                                     width: 1,
-                                    height: 40,
+                                    height: 64,
                                     color: context.xcolors.stroke,
                                   ),
                                   Expanded(
@@ -643,6 +665,11 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                                                 color: context.colors.primary,
                                                 fontWeight: FontWeight.w500,
                                               ),
+                                        ),
+                                        SizedBox(height: context.spacing.xs),
+                                        Text(
+                                          'common.credits_left'.tr(args: [_creditLeft(credits, 'interest')]),
+                                          style: context.text.bodySmall!.copyWith(color: context.colors.secondary),
                                         ),
                                       ],
                                     ),
@@ -670,6 +697,11 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                                                   color: context.colors.primary,
                                                   fontWeight: FontWeight.w500,
                                                 ),
+                                          ),
+                                          SizedBox(height: context.spacing.xs),
+                                          Text(
+                                            'common.credits_left'.tr(args: [_creditLeft(credits, 'ad')]),
+                                            style: context.text.bodySmall!.copyWith(color: context.colors.secondary),
                                           ),
                                         ],
                                       ),

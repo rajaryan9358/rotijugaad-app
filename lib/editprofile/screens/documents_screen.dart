@@ -380,10 +380,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
                       ),
                       onPressed: _isSubmittingForReview
                           ? null
-                          : () {
-                              provider.submitProfileForReview(widget.employeeId);
-                              widget.onButtonClicked();
-                            },
+                          : _submitForReviewAndContinue,
                       child: Text('common.skip'.tr()),
                     ),
                   ),

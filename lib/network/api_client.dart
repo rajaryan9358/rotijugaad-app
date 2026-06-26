@@ -134,6 +134,8 @@ class ApiClient {
   static String employeePersonalInfo(int userId) =>
       '/employees/$userId/personal-info';
 
+  static String employeeDob(int employeeId) => '/employees/$employeeId/dob';
+
   static String employeeJobProfiles(int employeeId) =>
       '/employees/$employeeId/job-profiles';
 

@@ -57,7 +57,8 @@
 		"salary_not_specified": "Salary not specified",
 		"up_to": "Up to {}",
 		"of": "{} of {}",
-		"press_back_again_to_exit": "Press back again to exit"
+		"press_back_again_to_exit": "Press back again to exit",
+		"credits_left": "{} credits left"
 	},
 	"errors": {
 		"unable_to_load_user_id": "Unable to load user id",
@@ -202,6 +203,7 @@
 			"verified_success": "Identity verified successfully",
 			"kyc_verified_success": "KYC verified successfully",
 			"employer_note": "Note: Please verify your Aadhaar or upload document to receive a verified tag on your ad, enhancing more applicants to apply on your job.",
+			"employee_note": "Become a Verified Job Seeker. Verify your Aadhar and upload a selfie photo to build trust with employers.",
 			"upload_documents": "Upload Documents",
 			"upload_documents_desc": "MSME Certificate, FSSAI License, Pan Card...",
 			"complete_profile_first": "Please complete your profile first",
@@ -866,5 +868,15 @@
 		"not_registered": {
 			"title": "Not Registered!"
 		}
+	},
+	"dob_dialog": {
+		"title": "Date of Birth Required",
+		"message": "Please enter your date of birth to continue using the app.",
+		"warning": "Your date of birth cannot be changed once saved.",
+		"select_date": "Select date of birth",
+		"select_dob": "Please select your date of birth"
+	},
+	"experience": {
+		"document_pending": "Document pending"
 	}
 }

@@ -102,6 +102,11 @@ class _ExperiencesScreenState extends State<ExperiencesScreen> {
                         );
                         final firmName = (exp.previousFirm ?? '').trim();
 
+                        final hasPendingDoc =
+                            exp.documentTypeId == null &&
+                            (exp.experienceCertificate == null ||
+                                exp.experienceCertificate!.isEmpty);
+
                         return UpdateExperienceItem(
                           title: safeTitle,
                           subtitle: subtitle.isEmpty ? null : subtitle,
@@ -110,6 +115,7 @@ class _ExperiencesScreenState extends State<ExperiencesScreen> {
                             exp.workDuration,
                             exp.workDurationFrequency,
                           ),
+                          showPendingIndicator: hasPendingDoc,
                           onEdit: () => widget.onEditClicked(exp.id),
                           onDelete: () async {
                             await context

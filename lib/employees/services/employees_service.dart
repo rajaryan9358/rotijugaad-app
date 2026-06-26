@@ -181,6 +181,17 @@ class EmployeesService {
     );
   }
 
+  Future<Result<Map<String, dynamic>, CustomException>> saveDob({
+    required int employeeId,
+    required String dob,
+  }) {
+    return _api.postJson<Map<String, dynamic>>(
+      endpoint: ApiClient.employeeDob(employeeId),
+      body: {'dob': dob},
+      fromJson: (json) => json ?? const <String, dynamic>{},
+    );
+  }
+
   Future<Result<AadhaarSendOtpResponse, CustomException>> sendAadhaarOtp({
     required int employeeId,
     required String aadhaarNumber,

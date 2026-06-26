@@ -844,7 +844,9 @@ class _CandidatesScreenState extends State<CandidatesScreen>
                         final outcome = await Navigator.push<Object?>(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => EditEmployerProfileScreen(),
+                            builder: (context) => const EditEmployerProfileScreen(
+                              goToAddJobAfterVerification: true,
+                            ),
                           ),
                         );
                         if (!mounted) return;

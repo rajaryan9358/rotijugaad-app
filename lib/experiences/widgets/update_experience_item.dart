@@ -7,6 +7,7 @@ class UpdateExperienceItem extends StatelessWidget {
   final String? subtitle;
   final String? firmName;
   final String? durationText;
+  final bool showPendingIndicator;
   final VoidCallback onEdit;
   final VoidCallback onDelete;
 
@@ -16,6 +17,7 @@ class UpdateExperienceItem extends StatelessWidget {
     this.subtitle,
     this.firmName,
     this.durationText,
+    this.showPendingIndicator = false,
     required this.onEdit,
     required this.onDelete,
   });
@@ -34,6 +36,26 @@ class UpdateExperienceItem extends StatelessWidget {
       margin: EdgeInsets.symmetric(vertical: context.spacing.sm),
       child: Column(
         children: [
+          if (showPendingIndicator) ...[
+            Row(
+              children: [
+                Icon(
+                  Icons.warning_amber_rounded,
+                  size: 14,
+                  color: context.xcolors.warning,
+                ),
+                SizedBox(width: context.spacing.xs / 2),
+                Text(
+                  'experience.document_pending'.tr(),
+                  style: context.text.bodySmall!.copyWith(
+                    color: context.xcolors.warning,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(height: context.spacing.xs / 2),
+          ],
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

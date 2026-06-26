@@ -143,7 +143,7 @@ class _EditProfileState extends State<EditProfile> {
     final kycStatus = (employee?.kycStatus ?? '').trim().toLowerCase();
 
     if (widget.openKycOnSubmit &&
-        (kycStatus.isEmpty || kycStatus == 'init' || kycStatus == 'rejected')) {
+        kycStatus != 'verified' && kycStatus != 'pending') {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (context) => VerifyIdentityScreen(

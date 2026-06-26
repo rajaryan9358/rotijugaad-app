@@ -205,6 +205,20 @@ class _VerifyIdentityScreenState extends State<VerifyIdentityScreen> {
                   Navigator.of(context).pop();
                 }),
                 Divider(color: context.xcolors.stroke),
+                Container(
+                  width: double.infinity,
+                  padding: EdgeInsets.symmetric(
+                    horizontal: context.spacing.md,
+                    vertical: context.spacing.sm,
+                  ),
+                  color: context.xcolors.successBackground,
+                  child: Text(
+                    'verify.identity.employee_note'.tr(),
+                    style: context.text.bodyMedium!.copyWith(
+                      color: context.xcolors.success,
+                    ),
+                  ),
+                ),
                 SizedBox(height: context.spacing.md),
                 AnimatedSwitcher(
                   duration: const Duration(milliseconds: 200),
